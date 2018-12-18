@@ -11,7 +11,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("Jedi, you will never be.")
 '''
-     
+     #the first line of code is missing a ) at the end of the line
      
      
 '''
@@ -41,7 +41,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("x is not positive.")
  '''
- 
+ # x==4 would need to change to x=4
  
  
  '''
