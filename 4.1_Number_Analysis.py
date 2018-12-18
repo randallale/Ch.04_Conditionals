@@ -19,7 +19,14 @@ Out:  Test 1: Odd
       Test 3: Exclusive
 '''
 number=int(input("Number :\n"))
-if (number%2) ==1:
+if (number%2)==1:
     print("Odd")
 else:
     print("Even")
+if number <0:
+    print("Negative")
+if number >0:
+    print("Positive")
+if number == 0:
+    print("Zero")
+if number
