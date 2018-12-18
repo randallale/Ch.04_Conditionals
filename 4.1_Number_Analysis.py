@@ -29,4 +29,7 @@ if number >0:
     print("Positive")
 if number == 0:
     print("Zero")
-if number
+if number < 100 and number > -100:
+    print("Inclusive")
+else:
+    print("Exclusive")
