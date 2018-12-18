@@ -18,3 +18,8 @@ Out:  Test 1: Odd
       Test 2: Negative
       Test 3: Exclusive
 '''
+number=int(input("Number :\n"))
+if (number%2) ==1:
+    print("Odd")
+else:
+    print("Even")
