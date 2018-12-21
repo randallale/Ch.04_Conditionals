@@ -20,3 +20,11 @@ if answer2.lower() == ("gary"):
     print("You are correct!")
 else:
     print("His pet isn't",answer2,"It's actually Gary")
+print("\n\n\rQuestion: 3 \n\rHow do you ask a question in python?")
+answer3 = input("A: ask.input() \n\rB: ask() \n\rC: input()\n\r")
+if answer3.lower() == ("c"):
+    score =+ 1
+    print("You are correct!")
+else:
+    print("The correct answer isn't",answer3,"it's C")
+print("")
