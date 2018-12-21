@@ -51,7 +51,9 @@ but I will definitely not ask another person except the instructor. Signed: ____
      if x = 3
          print("You entered 3")
  '''
- 
+ #1: Before input you need a float/int
+ #2: : should be after the 3 in the second line
+ #3: the = should be ==
  
  '''
   5. There are four things wrong with this code. Identify all four issues. 
@@ -62,8 +64,10 @@ but I will definitely not ask another person except the instructor. Signed: ____
          else
          print("Incorrect! It is BB8.")
 '''
-
-
+#1: if a = "BB8": should be a == "BB8":
+#2: if a = "BB8": should be a == ("BB8"):
+#3: else should be like else:
+#4: else should not be indented
 
 '''
   6. This program doesn't work correctly. What is wrong?
@@ -72,7 +76,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      if x == "Yoda" or "Luke Skywalker" or "Obi-Wan Kenobi":
          print("That is correct!")
 '''
-
+# you need to ask x == after every or not just in the beginning
 
 
 '''
@@ -91,9 +95,9 @@ but I will definitely not ask another person except the instructor. Signed: ____
      if z:
          print("Star Wars Episodes 4,5,6 are the best!")
 '''
-
-
-
+#Guess: It makes all of the variables equal to 5 and then makes y true if equal to 6 and x true if equal to 5
+#Guess: It then will print out the if z: statement because it is true
+# My guess was right ;) the answer was the if z: statement
 
 '''
  8. Look at the code below. Write you best guess on what it will print.
@@ -114,13 +118,24 @@ but I will definitely not ask another person except the instructor. Signed: ____
      print(x == 5 and y == 5)
      print(x == 5 or y == 5)
 '''
+# I will guess and what each one will print
+# 1: True
+# 2: False
+# 3: True
+# 4: False
+# 5: False
+# 6: True
+# 7: False
+# 8: False
+# 9: True
+# 10: False
+# 11: True
+# I got them all right
 
-
-
-'''
+'''''
  9. Look at the code below. Write you best guess on what it will print.
      Next, run the code and see if you are correct. (HINT: when comparing strings, ASCII codes are used. https://www.ascii-code.com/)
-     
+'''''
      print("3" == "3")
      print(" 3" == "3")
      print(3 < 4)
@@ -130,9 +145,17 @@ but I will definitely not ask another person except the instructor. Signed: ____
      print((2 == 2) == "True")
      print((2 == 2) == True)
      print("?"<"!")
-'''
 
-
+#1: True
+#2: False
+#3: True
+#4: False -- Got wrong
+#5: False --- Doesn't even run
+#6: True
+#7: False
+#8: True
+#8: False
+# I tried to run it but it couldn't run
 
 '''
  10. What things are wrong with this section of code?
@@ -153,4 +176,18 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else if user_input = C:
          money = 0
 '''
+# I would make the code this \/\/\/\/\/
+print("Welcome to the Jedi Academy!")
 
+print("A. Jedi Master")
+print("B. Sith Lord")
+print("C. Droid")
+
+user_input = input("Choose a character?")
+
+if user_input.upper() == ("A"):
+    money = 1000
+elif user_input.upper() == ("B"):
+    money = 900
+elif user_input.upper() == ("C"):
+    money = 0
