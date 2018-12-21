@@ -41,7 +41,8 @@ if answer5.lower() == ("dogs"):
     print("You are the better part of humanity")
 else:
     print("The answer is obviously dogs \n\rYou should get help")
-if score > 4:
+print("Your score is",score)
+if score > 3:
     print("You did great!")
-elif score <=4:
+elif score <=3:
     print("You could have done better :(")
