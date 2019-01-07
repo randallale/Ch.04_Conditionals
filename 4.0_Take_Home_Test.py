@@ -14,7 +14,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      #the first line of code is missing a ) at the end of the line
      
      
-'''
+'''DIDNT ANSWER THIS ONE
   2. This runs, but there is something wrong. What is it?
      
      user_input = input("R2D2 is a: ")
@@ -29,7 +29,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
 
 
 '''
-     
+     WHAT IS THE OTHER THING?
   3. There are two things wrong with this code that tests if x is set to a
      positive value. One prevents it from running, and the other is subtle.
      Make sure the if statement works no matter what x is set to.
@@ -55,7 +55,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
  #2: : should be after the 3 in the second line
  #3: the = should be ==
  
- '''
+ ''' YOUR #2 ANSWER IS INCORRECT
   5. There are four things wrong with this code. Identify all four issues. 
      
      answer = input("What is the name of Poe Dameron's Droid? ")
@@ -157,7 +157,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
 #8: False
 # I tried to run it but it couldn't run
 
-'''
+'''NO NEED FOR PARENTHESES LIKE ("A") BUT OTHERWISE GOOD
  10. What things are wrong with this section of code?
      The programmer wants to set the force sensitivity variable according to the character the user selects.
      
