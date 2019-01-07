@@ -14,7 +14,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      #the first line of code is missing a ) at the end of the line
      
      
-'''DIDNT ANSWER THIS ONE
+'''DIDNT ANSWER THIS ONE #Corrected
   2. This runs, but there is something wrong. What is it?
      
      user_input = input("R2D2 is a: ")
@@ -25,7 +25,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
      else:
          print("Incorrect.")
 '''
-
+# This code is wrong because you need to print the answers before you ask them to answer
 
 
 '''
@@ -42,7 +42,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
          print("x is not positive.")
  '''
  # x==4 would need to change to x=4
- 
+ # x >= 0 should be x > 0
  
  '''
   4. What three things are wrong with the following code?
