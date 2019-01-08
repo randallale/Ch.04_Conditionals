@@ -35,7 +35,9 @@ but I will definitely not ask another person except the instructor. Signed: ____
      Make sure the if statement works no matter what x is set to.
      Identify both issues. 
      
+     
      x == 4
+     
      if x >= 0:
          print("x is positive.")
      else:
@@ -55,7 +57,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
  #2: : should be after the 3 in the second line
  #3: the = should be ==
  
- ''' YOUR #2 ANSWER IS INCORRECT
+ ''' YOUR #2 ANSWER IS INCORRECT #CORRECTED
   5. There are four things wrong with this code. Identify all four issues. 
      
      answer = input("What is the name of Poe Dameron's Droid? ")
@@ -65,7 +67,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
          print("Incorrect! It is BB8.")
 '''
 #1: if a = "BB8": should be a == "BB8":
-#2: if a = "BB8": should be a == ("BB8"):
+#2: a should be answer not the variable a
 #3: else should be like else:
 #4: else should not be indented
 
@@ -157,7 +159,7 @@ but I will definitely not ask another person except the instructor. Signed: ____
 #8: False
 # I tried to run it but it couldn't run
 
-'''NO NEED FOR PARENTHESES LIKE ("A") BUT OTHERWISE GOOD
+'''NO NEED FOR PARENTHESES LIKE ("A") BUT OTHERWISE GOOD #OKAY
  10. What things are wrong with this section of code?
      The programmer wants to set the force sensitivity variable according to the character the user selects.
      
